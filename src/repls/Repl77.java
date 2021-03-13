@@ -28,7 +28,9 @@ public class Repl77 {
 	            rev[j] = num[i-1];
 	            System.out.println(rev[j]);
 	        }
+	       
 
+	         
 	}
 
 }
