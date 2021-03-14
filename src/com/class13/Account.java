@@ -9,8 +9,8 @@ public class Account {
 	boolean isLoggedIn;
 	
 	public void login (String userName, String password) {
-		if (userName.equals("userName")&& password.equals("password")) {
-			System.out.println("Welcome to bank of America your balance is+balance");
+		if (userName.equals(userName)&& password.equals(password)) {
+			System.out.println("Welcome to bank of America your balance is " +balance);
 		}else {
 			System.out.println("Username or password is not correct");
 		}
