@@ -1,6 +1,6 @@
 package com.class04;
 
-import java.lang.ProcessHandle.Info;
+
 import java.util.Scanner;
 
 public class Hw04Pt02 {

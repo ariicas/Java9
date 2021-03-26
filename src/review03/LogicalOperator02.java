@@ -5,7 +5,8 @@ public class LogicalOperator02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int number=1000;
+		int number;
+		number = 1000;
 		/* if the variable number contais a value between 0to 100 print ("0 to 100") otherwise
 		 * print("out of range")
 		 */
