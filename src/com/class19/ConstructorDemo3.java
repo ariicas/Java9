@@ -31,10 +31,10 @@ public class ConstructorDemo3 {
 	
 	
 	public static void main(String[] args) {      //it belongs to above inside parantheses.
-		ConstructorDemo3 ramObj =new ConstructorDemo3("Ram",100000,300,100);
+		ConstructorDemo3 ramObj =new ConstructorDemo3("Ram",100000,250,21);
 		System.out.println(ramObj.name);
-		System.out.println(ramObj.salary);
-		System.out.println(ramObj.bonus);
+		System.out.println((int)ramObj.salary);
+		System.out.println((int)ramObj.bonus);
 		System.out.println(ramObj.numberOfDaysWorked);
 		System.out.println(ramObj.bonusPercentage);
 		ramObj.printBonus();
