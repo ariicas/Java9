@@ -1,0 +1,43 @@
+Recap:
+Overloading:
+is a mechanism in java that allow us to have methods with same name but with diffrent
+number of parameters or different type of parameters or with different sequence of
+parameters;
+example:
+void hello(String name) {
+-->by changing the number of parameters;
+}
+void hello(char [] name{
+-->overloading by changing the datatype
+}
+void hello(char [] name, string address) {
+-->overloading by changing the sequence of parameters
+}
+Rules:
+1.we can overload methods in the same class;
+2.Name of the method should be the same
+3.we can not overload a method by just changing the return type.
+4. if we have an overloaded method Java will perform auto widening to call and method but
+not narrowing
+example:
+void add(int a,int b){}
+
+add (10,10) but not add(10.5,10.5) CE ERROR
+
+void add (double a, double b) {}
+add (10,10) add (10.5,10.5) NO issue;
+
+if we are not sure about the number of arguments we can use var args to pass
+any number of parameters to a method.
+
+void(int ... numbers){
+
+for(int number: numbers){
+syso.(number)
+}
+access modifiers do not effect the method overloading in the same class.
+
+1(can we overload main method?
+yes we can if we follow the overloading rules.
+Can we overload the static methods
+yes we can if we follow the overloading rules.

@@ -1,0 +1,15 @@
+Overiding notes :
+when same thod with same returh tyoe and same signature(name,parameters)
+exist in two classes which have inheritance relationship.
+
+when we have same methods in the parent child classes with static modifier we say that we are hiding a method
+by
+///notes from 3-31-21
+OVERIDING;
+when we have methods in parent and child classes
+1. there should be a parent child relationship between the classes.
+2.the return type, name and parameters of the method they should be the same.
+3.we can not overide private methods/constructor because they  dont participate in inheritance
+4.we can not decrease the visility of method being overwritten but we can increase.
+5. when it comes to static methods we say that we are redeclaring a method instead of overiding it.
+child methods calls first and then parent if child is not there
